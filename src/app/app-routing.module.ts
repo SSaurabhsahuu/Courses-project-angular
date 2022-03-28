@@ -8,7 +8,7 @@ import { WishlistComponent } from './wishlist/wishlist.component';
 //import { ProfileModule } from './profile/profile.module';   does not load chunk files
 
 const routes: Routes = [
-  { path: '', component: ListComponent
+  { path: 'courses', component: ListComponent
  },
  { path: 'cart', component: CartShoppingComponent
  },
@@ -18,7 +18,7 @@ const routes: Routes = [
  },
 // for lazy loading loadChildren is used which downloads create-character module only when it is used
 { path: 'profile',loadChildren: () => import("./profile/profile.module").then(m => m.ProfileModule)},
-{ path: '**', redirectTo: '' }        // for any inactive path redirect to /characters
+{ path: '**', redirectTo: 'courses' }        // for any inactive path redirect to /characters
 ];
 
 @NgModule({

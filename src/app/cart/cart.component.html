@@ -1,6 +1,6 @@
 
-<div cdkDrag *ngIf="currentRoute==='/courses' || currentRoute==='/wishlist' " style="border-bottom: 1px solid gray; border-radius: 10px;
-background-image: linear-gradient(rgba(245, 245, 245, 0),whitesmoke)"  class="list-group-item d-flex justify-content-between lh-sm">
+<div cdkDrag *ngIf="currentRoute==='/' || currentRoute==='/courses' || currentRoute==='/wishlist' " style="border-bottom: 1px solid gray; border-radius: 10px;
+background-color:rgb(253, 178, 39)"  class="list-group-item d-flex justify-content-between lh-sm">
   <div>
     <h5 class="my-0">{{ courses_of_cart.name}} </h5>
   </div>
@@ -32,7 +32,7 @@ background-image: linear-gradient(rgba(245, 245, 245, 0),whitesmoke); position: 
 </div>
 
 
-<div *ngIf="courses_of_cart.length==1">
+<div *ngIf="courses_of_cart.length===0">
     <p>No items added to Cart</p>
 </div>
 

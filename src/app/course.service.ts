@@ -38,7 +38,7 @@ export class CourseService {                           // to store all data and 
     .subscribe(event =>
      { if(event instanceof NavigationEnd )
          { this.currentRoute = event.url;
-            console.log(event.url);
+            console.log("currentRoute = ",event.url);
          }
      });
 
@@ -69,7 +69,7 @@ export class CourseService {                           // to store all data and 
 
     this.clickStar(name,"assets/images/yellow-star.png")      // remove wishlist from course
     this.charactersChanged.next();
-    alert(`Course added to cart`);
+   // alert(`Course added to cart`);
   }
 
 

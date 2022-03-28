@@ -7,7 +7,7 @@ background-image: linear-gradient(rgba(245, 245, 245, 0),whitesmoke);" class="ro
     <p  >{{ courses_of_course.instructor }} </p>
   </div>
 
-  <div *ngIf="currentRoute==='/courses'" class="col-sm-1">
+  <div *ngIf="currentRoute==='/' || currentRoute==='/courses'" class="col-sm-1">
     <button style="background-color:white; margin:auto; padding:1px 1px; border:0px;"> <img id="myImage" [src]="courses_of_course.starPath" (click)="onClickStar()" style="height: 20px;width:20px"/>
       </button>
     </div>
