@@ -1,5 +1,5 @@
 # Course Project is deployed here
-    [https://courses-project-angular.firebaseapp.com](https://courses-project-angular.firebaseapp.com/courses)
+    [Angular](https://courses-project-angular.firebaseapp.com)
 
 # Deploy using firebase
     To host a new project -
