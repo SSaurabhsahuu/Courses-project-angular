@@ -1,4 +1,4 @@
-# Course Project is deployed here
+## Course Project is deployed here
 
     [Angular CLI](https://courses-project-angular.firebaseapp.com).
     [Link to Google](https://www.google.com).
