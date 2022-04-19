@@ -1,8 +1,6 @@
-## Course Project is deployed here
+# Course Project is deployed here
 
-    [Angular CLI](https://courses-project-angular.firebaseapp.com).
-    [Link to Google](https://www.google.com).
-    [Angular CLI](https://github.com/angular/angular-cli).
+  [https://courses-project-angular.firebaseapp.com](https://courses-project-angular.firebaseapp.com)
 
 # Deploy using firebase
     To host a new project -
