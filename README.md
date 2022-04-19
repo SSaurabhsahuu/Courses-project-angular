@@ -6,11 +6,11 @@
 
 # Deploy using firebase
     To host a new project -
-    https://faun.pub/host-angular-app-for-free-8a443d324cda
+  [https://faun.pub/host-angular-app-for-free-8a443d324cda](https://faun.pub/host-angular-app-for-free-8a443d324cda)
 
     To make changes to deployed project
     1) ng build
-    2) ng deploy
+    2) firebase deploy
 # CourseProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
