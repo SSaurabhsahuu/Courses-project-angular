@@ -1,9 +1,9 @@
 # Course Project is deployed here
 
-    [Angular CLI](https://courses-project-angular.firebaseapp.com)
-    [Link to Google](https://www.google.com)
-    [Angular CLI](https://github.com/angular/angular-cli) 
-    
+    [Angular CLI](https://courses-project-angular.firebaseapp.com).
+    [Link to Google](https://www.google.com).
+    [Angular CLI](https://github.com/angular/angular-cli).
+
 # Deploy using firebase
     To host a new project -
     https://faun.pub/host-angular-app-for-free-8a443d324cda
